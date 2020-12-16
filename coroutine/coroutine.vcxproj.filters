@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="windows">
+      <UniqueIdentifier>{16a2e766-6d2b-4eb0-93fd-ec790b693e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linux">
+      <UniqueIdentifier>{057ddcb1-071d-4071-8849-7acc9b389b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\windows\coroutine.c">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\windows\main.c">
+      <Filter>windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\windows\coroutine.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
